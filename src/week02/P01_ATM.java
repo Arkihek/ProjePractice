@@ -22,14 +22,14 @@ public class P01_ATM {
 
             Sifre değiştirme işleminde mevcut şifreyi teyit ettikten sonra, sifre değişiklik işlemini yapmali,
 
-    SORU 2:
-            Geometrik şekillerin çevre ve alan hesaplamalarını OOP kullanarak kodlayınız
+
      */
 
     static Scanner scan = new Scanner(System.in);
     static String kartNo = "123456";
     static String sifre = "1234";
     static double bakiye = 50000;
+    static int sayac = 0;
 
 
     public static void main(String[] args) {
